@@ -3,3 +3,4 @@
 Flask
 pytest
 pytest-mock
+flake8
