@@ -9,7 +9,7 @@ from kiteconnect import KiteConnect
 
 
 __all__ = ('FlaskKiteConnect', )
-__version__ = '0.0.1'
+__version__ = '0.1.0'
 
 
 class FlaskKiteConnect(object):
