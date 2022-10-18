@@ -33,7 +33,8 @@ class FlaskKiteConnect(object):
         :param app: Flask app instance
         """
         self._client = KiteConnect(
-            app.config.get('KITECONNECT_API_KEY')
+            app.config.get('KITECONNECT_API_KEY'),
+            root=app.config.get('KITECONNECT_API_URL')
         )
         access_token = app.config.get('KITECONNECT_ACCESS_TOKEN')
         if access_token:
